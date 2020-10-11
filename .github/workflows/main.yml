@@ -28,15 +28,15 @@ jobs:
         uses: docker/build-push-action@v1.1.1
         with:
           # Username used to log in to a Docker registry. If not set then no login will occur
-          username: # shayfisher
+          username: shayfisher
           # Password or personal access token used to log in to a Docker registry. If not set then no login will occur
-          password: # 5bcde03a-c3fc-4fbb-9e06-caa4150042bb
+          password: 5bcde03a-c3fc-4fbb-9e06-caa4150042bb
           # Server address of Docker registry. If not set then will default to Docker Hub
           #registry: # optional
           # Docker repository to tag the image with
-          repository: shayfisher
+          repository: shayfisher/stolon
           # Comma-delimited list of tags. These will be added to the registry/repository to form the image's tags
-          tags: # v1.0.0
+          tags: v1.0.0
           # Automatically tags the built image with the git reference as per the readme
           #tag_with_ref: # optional
           # Automatically tags the built image with the git short SHA as per the readme
