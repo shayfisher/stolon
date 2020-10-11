@@ -50,7 +50,7 @@ jobs:
           # Always attempt to pull a newer version of the image
           #always_pull: # optional
           # Comma-delimited list of build-time variables
-          build_args: # PGVERSION=12
+          build_args: PGVERSION=12
           # Comma-delimited list of images to consider as cache sources
           #cache_froms: # optional
           # Comma-delimited list of labels to add to the built image
