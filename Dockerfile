@@ -26,7 +26,7 @@ RUN make
 #######
 FROM postgres:$PGVERSION
 
-RUN apt-get install postgres-12 libxml2- -y && useradd -ms /bin/bash stolon
+RUN apt-get install postgresql-12 libxml2- -y && useradd -ms /bin/bash stolon
 
 EXPOSE 5432
 
